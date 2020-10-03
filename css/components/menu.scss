@@ -7,7 +7,7 @@
 
   &::after {
     content: '';
-    background: url(../../img/decor/green-bottom-decor.png) left top repeat-x;
+    background: url(../img/decor/green-bottom-decor.png) left top repeat-x;
     height: 7px;
     position: absolute;
     bottom: -7px;
@@ -27,7 +27,7 @@
     }
 
     &:before {
-      content: url(../../img/decor/bluepink-smallsun-decor.png);
+      content: url(../img/decor/bluepink-smallsun-decor.png);
       margin-right: 2px;
       margin-top: 10px;
       
