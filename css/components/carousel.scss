@@ -1,18 +1,29 @@
 .carousel {
   background: $white;
-  min-height: 100px;
+  min-height: rem(100px);
   width: 100%;
   display: flex;
   
+  &__desktops {
+    @include desktops {
+      display: none;
+    }
+  }
   
+  &__largetablets {
+    @include largetablets {
+      display: none;
+    }
+  }
+
   // &::before {
   //   content: '';
   //   background: url(../../img/decor/pink-bottom-decor.png) left top repeat-x;
-  //   height: 7px;
+  //   height: rem(7px);
   //   position: absolute;
-  //   bottom: -7px;
-  //   left: 0px;
-  //   right: 0px;
+  //   bottom: rem(-7px);
+  //   left: rem(0px);
+  //   right: rem(0px);
   // }
 
   &__container {
@@ -24,7 +35,7 @@
  
 
   &__item {
-    margin-right: 30px;
+    margin-right: rem(30px);
 
     &:last-child {
       margin-left: 0;
@@ -32,8 +43,8 @@
   }
 
   &__block {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: rem(100px);
+    max-width: rem(100px);
     overflow: hidden;
     
   }

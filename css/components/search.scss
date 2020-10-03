@@ -1,17 +1,21 @@
 .search {
   align-items: center;
   justify-content: flex-end;
-  margin-left: 10px;
+  margin-left: rem(10px);
   display: flex;
   
 
   &__input {
     background: #FFFFFF;
-    border: 3px solid #6381C0;
-    border-radius: 22px;
+    border: rem(3px) solid #6381C0;
+    border-radius: rem(22px);
     font-family: $funny;
-    font-size: 20px;
-    color: $blue
+    font-size: rem(20px);
+    color: $blue;
     
+    @include largetablets {
+      max-width: 170px;
+    } 
+  
   }
 }

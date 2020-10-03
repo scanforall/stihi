@@ -15,12 +15,12 @@
 /* Rose */
 
 .pink {
-  width: 90px;
-  height: 90px;
-  left: 46px;
-  top: 769px;
+  width: rem(90px);
+  height: rem(90px);
+  left: rem(46px);
+  top: rem(769px);
   background: $pink;
-  border: 1px solid #000000;
+  border: rem(1px) solid #000000;
   display: flex;
 }
 
@@ -28,12 +28,12 @@
 
 .green {
   
-  width: 90px;
-  height: 90px;
-  left: 182px;
-  top: 769px;
+  width: rem(90px);
+  height: rem(90px);
+  left: rem(182px);
+  top: rem(769px);
   background: $green;
-  border: 1px solid #000000;
+  border: rem(1px) solid #000000;
   box-sizing: border-box;
 }
 
@@ -41,12 +41,12 @@
 
 .blue {
   
-  width: 90px;
-  height: 90px;
-  left: 182px;
-  top: 769px;
+  width: rem(90px);
+  height: rem(90px);
+  left: rem(182px);
+  top: rem(769px);
   background: $blue;
-  border: 1px solid #000000;
+  border: rem(1px) solid #000000;
   box-sizing: border-box;
 }
 
@@ -54,12 +54,12 @@
 
 .black {
   
-  width: 90px;
-  height: 90px;
-  left: 182px;
-  top: 769px;
+  width: rem(90px);
+  height: rem(90px);
+  left: rem(182px);
+  top: rem(769px);
   background: $black;
-  border: 1px solid #000000;
+  border: rem(1px) solid #000000;
   box-sizing: border-box;
 }
 
@@ -67,11 +67,11 @@
 
 .white {
   
-  width: 90px;
-  height: 90px;
-  left: 182px;
-  top: 769px;
+  width: rem(90px);
+  height: rem(90px);
+  left: rem(182px);
+  top: rem(769px);
   background: $white;
-  border: 1px solid #000000;
+  border: rem(1px) solid #000000;
   box-sizing: border-box;
 }

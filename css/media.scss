@@ -3,15 +3,33 @@
 }
 
 
-@mixin tablets {
-  @media screen and (max-width: $tablets) {
+@mixin desktops {
+  @media screen and (max-width: $desktops) {
     @content;
   }
 }
 
+@mixin largetablets {
+  @media screen and (max-width: $largetablets) {
+    @content;
+  }
+}
+
+@mixin landphones {
+  @media screen and (max-width: $landphones) {
+    @content;
+  }
+}
+
+@mixin landphones {
+  @media screen and (max-width: $landphones) {
+    @content;
+  }
+}
 
 @mixin phones {
   @media screen and (max-width: $phones) {
     @content;
   }
 }
+
