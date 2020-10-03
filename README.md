@@ -9,3 +9,7 @@ pug --watch ./ --pretty
 rem($0)
 ./css
 *.css
+
+-git
+
+branch  -main
