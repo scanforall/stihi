@@ -20,7 +20,7 @@
       background: url(../img/decor/pink-top-decor.png) left top repeat-x;
       height: rem(7px);
       position: absolute;
-      bottom: rem(55px);
+      bottom: rem(74px);
       left: rem(0px);
       right: rem(0px);
     }
@@ -38,27 +38,38 @@
     margin-top: rem(12px);
     position: relative;
     font-size: rem(22px);
+    text-align: center;
+    
+    
     
     &::before {
       content: '';
       background: url(../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
-      background-size: 7%;
+      background-size: 15%;
       height: rem(60px);
       position: absolute;
-      bottom: rem(-22px);
+      bottom: rem(10px);
       left: rem(-70px);
       right: rem(0px);
+
+      @include landphones {
+        display: none;
+      }
     }
 
     &::after {
       content: '';
       background: url(../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
-      background-size: 6.5%;
+      background-size: 13%;
       height: rem(60px);
       position: absolute;
-      bottom: rem(-22px);
+      bottom: rem(13px);
       left: rem(-70px);
       right: rem(-70px);
+
+      @include landphones {
+        display: none;
+      }
     }
   }
 
