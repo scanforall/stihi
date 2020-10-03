@@ -182,6 +182,16 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .header__container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__container {
+    flex-direction: row;
+  }
+}
 
 .menu {
   background-color: #BAD53D;
@@ -203,6 +213,11 @@ input::placeholder {
   display: flex;
   flex: 1;
   justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+  .menu__list {
+    display: none;
+  }
 }
 .menu__item {
   display: flex;
@@ -255,6 +270,11 @@ input::placeholder {
   min-height: 5.5555555556rem;
   width: 100%;
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  .carousel__tablets {
+    display: none;
+  }
 }
 @media screen and (max-width: 1200px) {
   .carousel__desktops {
@@ -339,4 +359,13 @@ input::placeholder {
   bottom: -1.2222222222rem;
   left: -3.8888888889rem;
   right: -3.8888888889rem;
+}
+
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .hamburger {
+    display: flex;
+  }
 }

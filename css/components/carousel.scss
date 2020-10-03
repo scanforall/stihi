@@ -4,6 +4,14 @@
   width: 100%;
   display: flex;
   
+
+  
+  &__tablets {
+    @include tablets {
+      display: none;
+    }
+  }
+
   &__desktops {
     @include desktops {
       display: none;

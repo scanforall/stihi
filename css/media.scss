@@ -15,8 +15,8 @@
   }
 }
 
-@mixin landphones {
-  @media screen and (max-width: $landphones) {
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
     @content;
   }
 }

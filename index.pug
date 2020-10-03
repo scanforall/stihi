@@ -19,6 +19,7 @@ html(lang="en")
       header.header
         .menu
           .container.header__container
+            .hamburger Меню
             ul.menu__list
               li.menu__item
                 a.menu__link(href="#") Главная
@@ -30,7 +31,6 @@ html(lang="en")
                 a.menu__link(href="#") От автора
               li.menu__item
                 a.menu__link(href="#") Контакты
-              
             .search
               input.search__input(type="text" placeholder="Поиск по сайту...")
       section.carousel
@@ -42,7 +42,7 @@ html(lang="en")
             li.carousel__item
               .carousel__block
                 img.carousel__img(src="./img/carousel/sofachild.png", alt="")
-            li.carousel__item
+            li.carousel__item.carousel__tablets
               .carousel__block
                 img.carousel__img(src="./img/carousel/dog.png", alt="")
             li.carousel__item.carousel__largetablets
@@ -57,7 +57,7 @@ html(lang="en")
             li.carousel__item
               .carousel__block
                 img.carousel__img(src="./img/carousel/sofachild.png", alt="")
-            li.carousel__item
+            li.carousel__item.carousel__tablets
               .carousel__block
                 img.carousel__img(src="./img/carousel/dog.png", alt="")
             li.carousel__item.carousel__largetablets
