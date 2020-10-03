@@ -1,0 +1,33 @@
+$containerWidth: 1200px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+
+//colors
+$white: #FFF;
+$black:#000;
+$pink:#C681B7;
+$blue:#6381C0;
+$green:#BAD53D;
+
+
+//z-indexes
+
+$z-fixed-menu: 100;
+
+@import "media";
+
+//normilize
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+//setups
+@import "../fonts/fonts";
+@import "layout";
+
+
+//components
+@import "components/wrapper";
+

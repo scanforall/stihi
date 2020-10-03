@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "ds_gooseregular";
+  src: url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tolstyak_heavy";
+  src: url("../fonts/tolstyakheavy-webfont.woff2") format("woff2"), url("../fonts/tolstyakheavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "xiomararegular";
+  src: url("../fonts/xiomara-webfont.woff2") format("woff2"), url("../fonts/xiomara-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
