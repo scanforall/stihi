@@ -3,6 +3,17 @@
   min-height: 20px;
   color: $white;
   width: 100%;
+  position: relative;
+
+  &::after {
+    content: '';
+    background: url(../../img/decor/green-bottom-decor.png) left top repeat-x;
+    height: 7px;
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+    right: 0px;
+  }
 
   &__item {
     display: flex;

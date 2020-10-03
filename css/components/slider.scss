@@ -1,0 +1,65 @@
+.slider {
+
+  &__bg {
+    background-color: $pink;
+    min-height: 56px;
+    position: relative;
+    
+    &::after {
+      content: '';
+      background: url(../../img/decor/pink-bottom-decor.png) left top repeat-x;
+      height: 7px;
+      position: absolute;
+      bottom: -7px;
+      left: 0px;
+      right: 0px;
+    }
+
+    &::before {
+      content: '';
+      background: url(../../img/decor/pink-top-decor.png) left top repeat-x;
+      height: 7px;
+      position: absolute;
+      bottom: 56px;
+      left: 0px;
+      right: 0px;
+    }
+
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  &__title {
+    margin-top: 12px;
+    position: relative;
+    font-size: 22px;
+    
+    &::before {
+      content: '';
+      background: url(../../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
+      background-size: 7%;
+      height: 60px;
+      position: absolute;
+      bottom: -22px;
+      left: -70px;
+      right: 0px;
+    }
+
+    &::after {
+      content: '';
+      background: url(../../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
+      background-size: 6.5%;
+      height: 60px;
+      position: absolute;
+      bottom: -22px;
+      left: -70px;
+      right: -70px;
+    }
+  }
+
+}

@@ -3,7 +3,7 @@
   justify-content: flex-end;
   margin-left: 10px;
   display: flex;
-  color: white;
+  
 
   &__input {
     background: #FFFFFF;
@@ -11,6 +11,7 @@
     border-radius: 22px;
     font-family: $funny;
     font-size: 20px;
+    color: $blue
     
   }
 }
