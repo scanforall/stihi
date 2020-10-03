@@ -7,7 +7,7 @@
     
     &::after {
       content: '';
-      background: url(../../img/decor/pink-bottom-decor.png) left top repeat-x;
+      background: url(../img/decor/pink-bottom-decor.png) left top repeat-x;
       height: 7px;
       position: absolute;
       bottom: -7px;
@@ -17,7 +17,7 @@
 
     &::before {
       content: '';
-      background: url(../../img/decor/pink-top-decor.png) left top repeat-x;
+      background: url(../img/decor/pink-top-decor.png) left top repeat-x;
       height: 7px;
       position: absolute;
       bottom: 56px;
@@ -41,7 +41,7 @@
     
     &::before {
       content: '';
-      background: url(../../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
+      background: url(../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
       background-size: 7%;
       height: 60px;
       position: absolute;
@@ -52,7 +52,7 @@
 
     &::after {
       content: '';
-      background: url(../../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
+      background: url(../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
       background-size: 6.5%;
       height: 60px;
       position: absolute;
