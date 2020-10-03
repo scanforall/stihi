@@ -171,6 +171,7 @@ input::placeholder {
   font-family: "ds_gooseregular";
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .header {
@@ -265,7 +266,7 @@ input::placeholder {
   background: url(../img/decor/pink-bottom-decor.png) left top repeat-x;
   height: 7px;
   position: absolute;
-  bottom: -7px;
+  bottom: -6px;
   left: 0px;
   right: 0px;
 }
@@ -274,7 +275,7 @@ input::placeholder {
   background: url(../img/decor/pink-top-decor.png) left top repeat-x;
   height: 7px;
   position: absolute;
-  bottom: 56px;
+  bottom: 55px;
   left: 0px;
   right: 0px;
 }
