@@ -13,6 +13,12 @@ $pink:#C681B7;
 $blue:#6381C0;
 $green:#BAD53D;
 
+//fonts
+
+$funny: 'ds_gooseregular';
+$decor: 'tolstyak_heavy';
+$strong: 'Roboto Condensed';
+
 
 //z-indexes
 
@@ -29,5 +35,9 @@ $z-fixed-menu: 100;
 
 
 //components
+@import "components/testlink";
 @import "components/wrapper";
+@import "components/header";
+@import "components/menu";
+@import "components/search";
 

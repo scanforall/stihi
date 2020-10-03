@@ -1,0 +1,16 @@
+.search {
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 10px;
+  display: flex;
+  color: white;
+
+  &__input {
+    background: #FFFFFF;
+    border: 3px solid #6381C0;
+    border-radius: 22px;
+    font-family: $funny;
+    font-size: 20px;
+    
+  }
+}
