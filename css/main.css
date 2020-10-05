@@ -172,7 +172,6 @@ input::placeholder {
   font-family: "ds_gooseregular";
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .header {
