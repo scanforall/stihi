@@ -14,7 +14,7 @@
     color: $blue;
     
     @include largetablets {
-      max-width: 170px;
+      max-width: rem(170px);
     } 
   
   }

@@ -93,7 +93,7 @@ input {
 }
 input::placeholder {
   color: #6381C0;
-  margin-left: 10px;
+  margin-left: 0.5555555556rem;
 }
 
 /* Rose */
@@ -261,7 +261,7 @@ input::placeholder {
 }
 @media screen and (max-width: 992px) {
   .search__input {
-    max-width: 170px;
+    max-width: 9.4444444444rem;
   }
 }
 
@@ -307,69 +307,27 @@ input::placeholder {
   height: 100%;
 }
 
-.slider__bg {
-  background-color: #C681B7;
-  min-height: 3.1111111111rem;
-  position: relative;
-}
-.slider__bg::after {
-  content: "";
-  background: url(../img/decor/pink-bottom-decor.png) left top repeat-x;
-  height: 0.3888888889rem;
-  position: absolute;
-  bottom: -0.3333333333rem;
-  left: 0rem;
-  right: 0rem;
-}
-.slider__bg::before {
-  content: "";
-  background: url(../img/decor/pink-top-decor.png) left top repeat-x;
-  height: 0.3888888889rem;
-  position: absolute;
-  bottom: 4.1111111111rem;
-  left: 0rem;
-  right: 0rem;
+.slider__decor {
+  background: #C681B7;
+  border-style: solid;
+  border-width: 0.2777777778rem 0rem 0.2777777778rem 0rem;
+  border-image: url(../../img/decor/pinkframe.png) 5 0 5 0 repeat repeat;
+  border-image-outset: 0.2777777778rem;
 }
 .slider__container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 .slider__title {
-  margin-top: 0.6666666667rem;
   position: relative;
   font-size: 1.2222222222rem;
   text-align: center;
+  margin: 0 10px 0 10px;
 }
-.slider__title::before {
-  content: "";
-  background: url(../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
-  background-size: 15%;
-  height: 3.3333333333rem;
-  position: absolute;
-  bottom: 0.5555555556rem;
-  left: -3.8888888889rem;
-  right: 0rem;
-}
-@media screen and (max-width: 576px) {
-  .slider__title::before {
-    display: none;
-  }
-}
-.slider__title::after {
-  content: "";
-  background: url(../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
-  background-size: 13%;
-  height: 3.3333333333rem;
-  position: absolute;
-  bottom: 0.7222222222rem;
-  left: -3.8888888889rem;
-  right: -3.8888888889rem;
-}
-@media screen and (max-width: 576px) {
-  .slider__title::after {
-    display: none;
-  }
+.slider__title-decor {
+  height: 25px;
 }
 
 .hamburger {

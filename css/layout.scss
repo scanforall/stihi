@@ -85,6 +85,6 @@ input {
 
     &::placeholder {
         color: $blue;
-        margin-left: 10px;
+        margin-left: rem(10px);
     }
 }

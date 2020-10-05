@@ -1,76 +1,29 @@
 .slider {
 
-  &__bg {
-    background-color: $pink;
-    min-height: rem(56px);
-    position: relative;
-    
-    &::after {
-      content: '';
-      background: url(../img/decor/pink-bottom-decor.png) left top repeat-x;
-      height: rem(7px);
-      position: absolute;
-      bottom: rem(-6px);
-      left: rem(0px);
-      right: rem(0px);
-    }
-
-    &::before {
-      content: '';
-      background: url(../img/decor/pink-top-decor.png) left top repeat-x;
-      height: rem(7px);
-      position: absolute;
-      bottom: rem(74px);
-      left: rem(0px);
-      right: rem(0px);
-    }
-
+  &__decor {
+    background: $pink;
+    border-style: solid;
+    border-width: rem(5px) rem(0px) rem(5px) rem(0px);
+    border-image: url(../../img/decor/pinkframe.png) 5 0 5 0 repeat repeat;
+    border-image-outset: rem(5px);
   }
 
-  &__container {
+  &__container { 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     
   }
 
   &__title {
-    margin-top: rem(12px);
     position: relative;
     font-size: rem(22px);
     text-align: center;
-    
-    
-    
-    &::before {
-      content: '';
-      background: url(../img/decor/greenpink-bigsun-decor.png) left top no-repeat;
-      background-size: 15%;
-      height: rem(60px);
-      position: absolute;
-      bottom: rem(10px);
-      left: rem(-70px);
-      right: rem(0px);
+    margin: 0 10px 0 10px;
 
-      @include landphones {
-        display: none;
-      }
-    }
-
-    &::after {
-      content: '';
-      background: url(../img/decor/greenpink-bigsun-decor.png) right top no-repeat;
-      background-size: 13%;
-      height: rem(60px);
-      position: absolute;
-      bottom: rem(13px);
-      left: rem(-70px);
-      right: rem(-70px);
-
-      @include landphones {
-        display: none;
-      }
+    &-decor {
+      height: 25px;
     }
   }
-
 }
