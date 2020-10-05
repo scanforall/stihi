@@ -539,6 +539,11 @@ input::placeholder {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
   min-height: 540px;
 }
+@media screen and (max-width: 992px) {
+  .preview {
+    min-height: 460px;
+  }
+}
 @media screen and (max-width: 768px) {
   .preview {
     min-height: 440px;
@@ -709,6 +714,11 @@ input::placeholder {
 }
 .footer__logo {
   max-height: 80px;
+}
+@media screen and (max-width: 320px) {
+  .footer__logo {
+    display: none;
+  }
 }
 .footer-menu {
   margin-left: 10px;

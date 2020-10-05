@@ -33,3 +33,9 @@
   }
 }
 
+@mixin miniphones {
+  @media screen and (max-width: $miniphones) {
+    @content;
+  }
+}
+

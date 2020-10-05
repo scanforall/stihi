@@ -2,6 +2,10 @@
   background: url("../img/bg/pink-with-decor-grey-bg.png");
   min-height: 540px;
 
+  @include largetablets {
+    min-height: 460px;
+  }
+
   @include tablets {
     min-height: 440px;
   }
