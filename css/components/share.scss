@@ -1,0 +1,10 @@
+.share {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  flex-direction: column;
+ 
+  &__text {
+    color: $pink;
+  }
+}

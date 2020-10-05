@@ -637,28 +637,6 @@ input::placeholder {
     min-height: 350px;
   }
 }
-.description__decor:before {
-  content: url(../img/decor/description-left.png);
-  position: absolute;
-  right: 90%;
-  bottom: -5%;
-}
-@media screen and (max-width: 768px) {
-  .description__decor:before {
-    display: none;
-  }
-}
-.description__decor:after {
-  content: url(../img/decor/description-right.png);
-  position: absolute;
-  left: 90%;
-  bottom: 5%;
-}
-@media screen and (max-width: 768px) {
-  .description__decor:after {
-    display: none;
-  }
-}
 .description__container {
   margin-top: 60px;
   display: flex;
@@ -679,6 +657,28 @@ input::placeholder {
   color: #6381C0;
   font-size: 20px;
 }
+.description__text:before {
+  content: url(../img/decor/description-left.png);
+  position: absolute;
+  right: 90%;
+  bottom: 11%;
+}
+@media screen and (max-width: 768px) {
+  .description__text:before {
+    display: none;
+  }
+}
+.description__text:after {
+  content: url(../img/decor/description-right.png);
+  position: absolute;
+  left: 90%;
+  bottom: 16%;
+}
+@media screen and (max-width: 768px) {
+  .description__text:after {
+    display: none;
+  }
+}
 @media screen and (max-width: 992px) {
   .description__text {
     font-size: 16px;
@@ -688,4 +688,72 @@ input::placeholder {
   .description__text {
     font-size: 14px;
   }
+}
+
+.footer {
+  min-height: 200px;
+  background: #FFF;
+  color: #000;
+}
+.footer__block {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  max-height: 80px;
+}
+.footer-menu {
+  margin-left: 10px;
+}
+.footer-menu__list {
+  font-family: "Roboto Condensed";
+  flex-direction: column;
+}
+.footer__decor {
+  object-fit: none;
+  max-width: 500px;
+  height: 160px;
+}
+@media screen and (max-width: 992px) {
+  .footer__decor {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__decor {
+    display: none;
+  }
+}
+
+.copyright {
+  font-family: "Roboto Condensed";
+  display: flex;
+  justify-content: center;
+}
+.copyright__desc {
+  font-family: "Roboto Condensed";
+}
+.copyright__text {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.share {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.share__text {
+  color: #C681B7;
+}
+
+.social__item {
+  margin-right: 8px;
+}
+.social__item:last-child {
+  margin-right: 0;
 }

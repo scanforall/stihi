@@ -7,30 +7,30 @@
   }
   
 
-  &__decor {
+  // &__decor {
 
-    &:before {
-      content: url(../img/decor/description-left.png);
-      position: absolute;
-      right: 90%;
-      bottom: -5%;
+  //   &:before {
+  //     content: url(../img/decor/description-left.png);
+  //     position: absolute;
+  //     right: 90%;
+  //     bottom: -5%;
 
-      @include tablets {
-        display: none;
-      }
-    }
+  //     @include tablets {
+  //       display: none;
+  //     }
+  //   }
 
-    &:after {
-      content: url(../img/decor/description-right.png);
-      position: absolute;
-      left: 90%;
-      bottom: 5%;
+  //   &:after {
+  //     content: url(../img/decor/description-right.png);
+  //     position: absolute;
+  //     left: 90%;
+  //     bottom: 5%;
 
-      @include tablets {
-        display: none;
-      }
-    }
-  }
+  //     @include tablets {
+  //       display: none;
+  //     }
+  //   }
+  // }
 
   &__container {
     margin-top: 60px;
@@ -52,6 +52,28 @@
   &__text {
     color: $blue;
     font-size: 20px;
+
+    &:before {
+      content: url(../img/decor/description-left.png);
+      position: absolute;
+      right: 90%;
+      bottom: 11%;
+
+      @include tablets {
+        display: none;
+      }
+    }
+
+    &:after {
+      content: url(../img/decor/description-right.png);
+      position: absolute;
+      left: 90%;
+      bottom: 16%;
+
+      @include tablets {
+        display: none;
+      }
+    }
 
     @include largetablets {
       font-size: 16px;

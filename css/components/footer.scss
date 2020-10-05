@@ -1,0 +1,40 @@
+.footer {
+  min-height: 200px;
+  background: $white;
+  color: $black;
+
+  &__block {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    max-height: 80px;
+  }
+
+  &-menu {
+    margin-left: 10px;
+
+    &__list {
+      font-family: $strong;
+      flex-direction: column;
+    }
+  }
+
+  &__decor {
+    object-fit: none;
+    max-width: 500px;
+    height: 160px;
+
+    @include largetablets {
+      max-width: 300px;
+    }
+
+    @include tablets {
+      display: none;
+    }
+  }
+}

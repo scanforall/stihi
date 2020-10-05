@@ -1,0 +1,14 @@
+.copyright {
+  font-family: $strong;
+  display: flex;
+  justify-content: center;
+    
+  &__desc {
+    font-family: $strong;
+  }
+
+  &__text {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}
