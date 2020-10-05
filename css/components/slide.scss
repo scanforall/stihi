@@ -1,0 +1,88 @@
+.slide {
+  flex-direction: column;
+  padding: 40px;  
+  flex: 1;
+
+  @include desktops {
+    padding: 40px 20px;
+  }
+
+  @include largetablets {
+    padding: 60px 10px;
+  }
+
+  @include tablets {
+    padding: 80px 0;
+  }  
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__top-elem {
+    display: flex;
+    flex-direction: row;
+    color: $blue;
+    margin-bottom: 50px;
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      max-width: 150px;
+    }
+    
+  }
+  
+  &__bottom-elem {
+    display: flex;
+    flex-direction: row;
+
+    &-text {
+      align-self: flex-end;
+    }
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      max-width: 220px;
+    }
+  }
+
+  &--font {
+    font-size: 30px;
+
+    @include desktops {
+      font-size: 25px;
+    }
+
+    @include largetablets {
+      font-size: 20px;
+    }
+
+    @include tablets {
+      font-size: 16px;
+    }
+
+    @include landphones {
+      font-size: 12px;
+    }
+  }
+
+  &__img {
+    @include desktops {
+      max-width: 150px;
+    }
+
+    @include largetablets {
+      max-width: 100px;
+    }
+
+    @include tablets {
+      max-width: 60px;
+    }
+    
+  }
+}

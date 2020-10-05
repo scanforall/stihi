@@ -1,11 +1,14 @@
 .slider {
 
-  &__decor {
+  &__title {
     background: $pink;
     border-style: solid;
     border-width: rem(5px) rem(0px) rem(5px) rem(0px);
     border-image: url(../../img/decor/pinkframe.png) 5 0 5 0 repeat repeat;
     border-image-outset: rem(5px);
+    width: 100%;
+    position: absolute;
+    z-index: 10;
   }
 
   &__container { 
@@ -13,10 +16,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
   }
 
-  &__title {
+  &__text {
     position: relative;
     font-size: rem(22px);
     text-align: center;
@@ -24,6 +26,32 @@
 
     &-decor {
       height: 25px;
+    }
+  }
+
+  &__block {
+    background: url(../../img/bg/white-with-decor-colors-bg.png);
+    color: $pink;
+    min-height: 760px;
+    margin-top: 40px;
+
+    &-btn {
+      max-width: 10vh;
+      &--rotate {
+        transform: rotate(180deg);
+      }
+
+      @include desktops {
+        max-width: 8vh;
+      }
+  
+      @include largetablets {
+        max-width: 6vh;
+      }
+  
+      @include tablets {
+        max-width: 5vh;
+      }
     }
   }
 }
