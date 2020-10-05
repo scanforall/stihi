@@ -5,6 +5,10 @@
   flex-direction: column;
  
   &__text {
-    color: $pink;
+    font-family: $strong;
+    
+    @include landphones {
+      font-size: 14px;
+    }
   }
 }

@@ -772,7 +772,12 @@ input::placeholder {
   flex-direction: column;
 }
 .share__text {
-  color: #C681B7;
+  font-family: "Roboto Condensed";
+}
+@media screen and (max-width: 576px) {
+  .share__text {
+    font-size: 14px;
+  }
 }
 
 .social__item {
