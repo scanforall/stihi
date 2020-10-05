@@ -1,9 +1,11 @@
 .wrapper {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
-  width: 100vw;
   color: $white;
   font-family: $funny;
   display: flex;
   flex-direction: column;
-  
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
 }

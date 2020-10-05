@@ -166,11 +166,14 @@ input::placeholder {
 
 .wrapper {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
-  width: 100vw;
   color: #FFF;
   font-family: "ds_gooseregular";
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .header {
@@ -534,7 +537,7 @@ input::placeholder {
 
 .preview {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
-  min-height: 500px;
+  min-height: 540px;
 }
 @media screen and (max-width: 576px) {
   .preview {
@@ -623,4 +626,66 @@ input::placeholder {
   border-width: 0.2777777778rem 0.2777777778rem 0.2777777778rem 0.2777777778rem;
   border-image: url(../img/decor/whiteframe.png) 5 5 5 5 repeat repeat;
   border-image-outset: 0.2222222222rem;
+}
+
+.description {
+  background: url("../../img/bg/whiteblue-with-decor-colors-bg.png");
+  min-height: 400px;
+}
+@media screen and (max-width: 992px) {
+  .description {
+    min-height: 350px;
+  }
+}
+.description__decor:before {
+  content: url(../../img/decor/description-left.png);
+  position: absolute;
+  right: 90%;
+  bottom: -5%;
+}
+@media screen and (max-width: 768px) {
+  .description__decor:before {
+    display: none;
+  }
+}
+.description__decor:after {
+  content: url(../../img/decor/description-right.png);
+  position: absolute;
+  left: 90%;
+  bottom: 5%;
+}
+@media screen and (max-width: 768px) {
+  .description__decor:after {
+    display: none;
+  }
+}
+.description__container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.description__title {
+  color: #BAD53D;
+  font-size: 36px;
+}
+@media screen and (max-width: 992px) {
+  .description__title {
+    font-size: 32px;
+  }
+}
+.description__text {
+  color: #6381C0;
+  font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+  .description__text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .description__text {
+    font-size: 14px;
+  }
 }

@@ -1,0 +1,65 @@
+.description {
+  background: url("../../img/bg/whiteblue-with-decor-colors-bg.png");
+  min-height: 400px;
+
+  @include largetablets {
+    min-height: 350px;
+  }
+  
+
+  &__decor {
+
+    &:before {
+      content: url(../../img/decor/description-left.png);
+      position: absolute;
+      right: 90%;
+      bottom: -5%;
+
+      @include tablets {
+        display: none;
+      }
+    }
+
+    &:after {
+      content: url(../../img/decor/description-right.png);
+      position: absolute;
+      left: 90%;
+      bottom: 5%;
+
+      @include tablets {
+        display: none;
+      }
+    }
+  }
+
+  &__container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    color: $green;
+    font-size: 36px;
+
+    @include largetablets {
+      font-size: 32px;
+    }
+  }
+
+  &__text {
+    color: $blue;
+    font-size: 20px;
+
+    @include largetablets {
+      font-size: 16px;
+    }
+
+    @include tablets {
+      font-size: 14px;
+    }
+  }
+
+}
