@@ -629,7 +629,7 @@ input::placeholder {
 }
 
 .description {
-  background: url("../../img/bg/whiteblue-with-decor-colors-bg.png");
+  background: url("../img/bg/whiteblue-with-decor-colors-bg.png");
   min-height: 400px;
 }
 @media screen and (max-width: 992px) {
@@ -638,7 +638,7 @@ input::placeholder {
   }
 }
 .description__decor:before {
-  content: url(../../img/decor/description-left.png);
+  content: url(../img/decor/description-left.png);
   position: absolute;
   right: 90%;
   bottom: -5%;
@@ -649,7 +649,7 @@ input::placeholder {
   }
 }
 .description__decor:after {
-  content: url(../../img/decor/description-right.png);
+  content: url(../img/decor/description-right.png);
   position: absolute;
   left: 90%;
   bottom: 5%;

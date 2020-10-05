@@ -1,5 +1,5 @@
 .description {
-  background: url("../../img/bg/whiteblue-with-decor-colors-bg.png");
+  background: url("../img/bg/whiteblue-with-decor-colors-bg.png");
   min-height: 400px;
 
   @include largetablets {
@@ -10,7 +10,7 @@
   &__decor {
 
     &:before {
-      content: url(../../img/decor/description-left.png);
+      content: url(../img/decor/description-left.png);
       position: absolute;
       right: 90%;
       bottom: -5%;
@@ -21,7 +21,7 @@
     }
 
     &:after {
-      content: url(../../img/decor/description-right.png);
+      content: url(../img/decor/description-right.png);
       position: absolute;
       left: 90%;
       bottom: 5%;
