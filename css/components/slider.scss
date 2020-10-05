@@ -5,7 +5,7 @@
     border-style: solid;
     border-width: rem(5px) rem(0px) rem(5px) rem(0px);
     border-image: url(../img/decor/pinkframe.png) 5 0 5 0 repeat repeat;
-    border-image-outset: rem(5px);
+    border-image-outset: rem(4px);
     width: 100%;
     position: absolute;
     z-index: 10;
@@ -22,18 +22,18 @@
     position: relative;
     font-size: rem(22px);
     text-align: center;
-    margin: 0 10px 0 10px;
+    margin: 0 rem(10px) 0 rem(10px);
 
     &-decor {
-      height: 25px;
+      height: rem(25px);
     }
   }
 
   &__block {
     background: url(../img/bg/white-with-decor-colors-bg.png);
     color: $pink;
-    min-height: 760px;
-    margin-top: 40px;
+    min-height: rem(760px);
+    margin-top: rem(40px);
 
     &-btn {
       max-width: 10vh;
