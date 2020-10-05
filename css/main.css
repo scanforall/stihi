@@ -364,7 +364,6 @@ input::placeholder {
 .slider__block {
   background: url(../img/bg/white-with-decor-colors-bg.png);
   color: #C681B7;
-  min-height: 42.2222222222rem;
   margin-top: 2.2222222222rem;
 }
 .slider__block-btn {
