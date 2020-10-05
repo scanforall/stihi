@@ -12,7 +12,7 @@
   }
 
   @include tablets {
-    padding: rem(40px) 0 rem(20px);
+    padding: rem(40px) rem(2px) rem(20px);
   }  
 
   &__container {
@@ -67,7 +67,7 @@
     }
 
     @include landphones {
-      font-size: rem(12px);
+      font-size: rem(14px);
     }
   }
 
