@@ -400,12 +400,12 @@ input::placeholder {
 }
 @media screen and (max-width: 992px) {
   .slide {
-    padding: 3.3333333333rem 0.5555555556rem;
+    padding: 2.2222222222rem 0.5555555556rem;
   }
 }
 @media screen and (max-width: 768px) {
   .slide {
-    padding: 4.4444444444rem 0;
+    padding: 2.2222222222rem 0 1.1111111111rem;
   }
 }
 .slide__container {

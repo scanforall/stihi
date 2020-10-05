@@ -8,11 +8,11 @@
   }
 
   @include largetablets {
-    padding: rem(60px) rem(10px);
+    padding: rem(40px) rem(10px);
   }
 
   @include tablets {
-    padding: rem(80px) 0;
+    padding: rem(40px) 0 rem(20px);
   }  
 
   &__container {
