@@ -710,7 +710,6 @@ input::placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 }
 .footer__logo {
   max-height: 80px;
@@ -722,6 +721,11 @@ input::placeholder {
 }
 .footer-menu {
   margin-left: 10px;
+}
+@media screen and (max-width: 320px) {
+  .footer-menu {
+    margin-right: 60px;
+  }
 }
 .footer-menu__list {
   font-family: "Roboto Condensed";
