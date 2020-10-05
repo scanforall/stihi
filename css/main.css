@@ -609,6 +609,6 @@ input::placeholder {
   background: #FFF;
   border-style: solid;
   border-width: 0.2777777778rem 0.2777777778rem 0.2777777778rem 0.2777777778rem;
-  border-image: url(../../img/decor/whiteframe.png) 5 5 5 5 repeat repeat;
+  border-image: url(../img/decor/whiteframe.png) 5 5 5 5 repeat repeat;
   border-image-outset: 0.2222222222rem;
 }
