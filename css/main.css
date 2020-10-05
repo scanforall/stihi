@@ -536,6 +536,11 @@ input::placeholder {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
   min-height: 500px;
 }
+@media screen and (max-width: 576px) {
+  .preview {
+    min-height: 420px;
+  }
+}
 .preview__slide {
   margin-top: 80px;
 }
@@ -576,6 +581,7 @@ input::placeholder {
 @media screen and (max-width: 768px) {
   .preview__link {
     flex-direction: column;
+    margin-left: 0;
   }
 }
 .preview__link-img {
@@ -584,11 +590,17 @@ input::placeholder {
 .preview__link-img-container {
   height: 100px;
   border-radius: 26px;
-  border: 5px solid #C681B7;
+  border: 3px solid #C681B7;
   overflow: hidden;
 }
 .preview__link-text {
   margin-left: 10px;
+  font-size: 26px;
+}
+@media screen and (max-width: 576px) {
+  .preview__link-text {
+    font-size: 20px;
+  }
 }
 .preview__input {
   min-width: 315px;
