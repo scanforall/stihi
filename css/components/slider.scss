@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    min-height: 30px;
   }
 
   &__text {
@@ -23,9 +24,25 @@
     font-size: rem(22px);
     text-align: center;
     margin: 0 rem(10px) 0 rem(10px);
+    
+    @include desktops {
+      font-size: rem(20px);
+    }
+
+    @include largetablets {
+      font-size: rem(18px);
+    }
+
+    @include tablets {
+      font-size: rem(16px);
+    }    
+    @include landphones {
+      font-size: rem(14px);
+    }    
 
     &-decor {
-      height: rem(25px);
+      height: rem(24px);
+
     }
   }
 

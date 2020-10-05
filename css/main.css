@@ -330,6 +330,7 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  min-height: 30px;
 }
 .slider__text {
   position: relative;
@@ -337,8 +338,28 @@ input::placeholder {
   text-align: center;
   margin: 0 0.5555555556rem 0 0.5555555556rem;
 }
+@media screen and (max-width: 1200px) {
+  .slider__text {
+    font-size: 1.1111111111rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slider__text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider__text {
+    font-size: 0.8888888889rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .slider__text {
+    font-size: 0.7777777778rem;
+  }
+}
 .slider__text-decor {
-  height: 1.3888888889rem;
+  height: 1.3333333333rem;
 }
 .slider__block {
   background: url(../img/bg/white-with-decor-colors-bg.png);
