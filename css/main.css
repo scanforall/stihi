@@ -727,9 +727,7 @@ input::placeholder {
   height: 100%;
 }
 .preview__link-img-container {
-  height: 60px;
-  border-radius: 26px;
-  border: 3px solid #C681B7;
+  height: 40px;
   overflow: hidden;
 }
 .preview__link-text {
