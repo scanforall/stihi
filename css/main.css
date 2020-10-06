@@ -168,7 +168,7 @@ input::placeholder {
 .wrapper {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
   color: #FFF;
-  font-family: "tolstyak_heavy";
+  font-family: "ds_gooseregular";
   display: flex;
   flex-direction: column;
   position: relative;
@@ -224,7 +224,7 @@ input::placeholder {
 .menu__item {
   display: flex;
   align-items: center;
-  font-family: "tolstyak_heavy";
+  font-family: "ds_gooseregular";
   font-size: 1.1111111111rem;
   white-space: nowrap;
 }
@@ -266,7 +266,7 @@ input::placeholder {
   background: #FFFFFF;
   border: 0.1666666667rem solid #6381C0;
   border-radius: 1.2222222222rem;
-  font-family: "tolstyak_heavy";
+  font-family: "ds_gooseregular";
   font-size: 1.1111111111rem;
   color: #6381C0;
 }
@@ -431,7 +431,6 @@ input::placeholder {
   display: flex;
   flex-direction: row;
   color: #6381C0;
-  margin-bottom: 2.7777777778rem;
 }
 .slide__top-elem-text {
   margin-left: 10px;
