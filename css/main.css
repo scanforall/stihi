@@ -167,7 +167,7 @@ input::placeholder {
 .wrapper {
   background: url("../img/bg/pink-with-decor-grey-bg.png");
   color: #FFF;
-  font-family: "ds_gooseregular";
+  font-family: "tolstyak_heavy";
   display: flex;
   flex-direction: column;
   position: relative;
@@ -223,7 +223,7 @@ input::placeholder {
 .menu__item {
   display: flex;
   align-items: center;
-  font-family: "ds_gooseregular";
+  font-family: "tolstyak_heavy";
   font-size: 1.1111111111rem;
   white-space: nowrap;
 }
@@ -265,7 +265,7 @@ input::placeholder {
   background: #FFFFFF;
   border: 0.1666666667rem solid #6381C0;
   border-radius: 1.2222222222rem;
-  font-family: "ds_gooseregular";
+  font-family: "tolstyak_heavy";
   font-size: 1.1111111111rem;
   color: #6381C0;
 }
