@@ -5,6 +5,20 @@
   width: 100%;
   position: relative;
 
+  &-hidden {
+    
+    &__list {
+      display: none;
+      flex-direction: column;
+
+      &-active{
+        display: flex;
+      }
+      
+    }
+
+  }
+
   &::after {
     content: '';
     background: url(../img/decor/green-bottom-decor.png) left top repeat-x;

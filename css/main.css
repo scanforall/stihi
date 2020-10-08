@@ -202,6 +202,13 @@ input::placeholder {
   width: 100%;
   position: relative;
 }
+.menu-hidden__list {
+  display: none;
+  flex-direction: column;
+}
+.menu-hidden__list-active {
+  display: flex;
+}
 .menu::after {
   content: "";
   background: url(../img/decor/green-bottom-decor.png) left top repeat-x;
@@ -1123,6 +1130,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 .method__way {
   margin-bottom: 30px;
@@ -1155,4 +1163,5 @@ input::placeholder {
   margin: 0 auto;
   width: 70vw;
   border-radius: 50px;
+  max-width: 500px;
 }
