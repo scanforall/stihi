@@ -11,5 +11,4 @@ rem($0)
 *.css
 
 -git
-
-branch  -main
+git push -f
