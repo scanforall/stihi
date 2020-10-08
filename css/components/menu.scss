@@ -13,10 +13,11 @@
       display: none;
       flex-direction: column;
       top: 30px;
+      left: 0;
       z-index: 20;
       background: $green;
       border-style: solid;
-      border-width: rem(5px) rem(5px) rem(5px) rem(5px);
+      border-width: rem(0px) rem(5px) rem(5px) rem(5px);
       border-image: url(../img/decor/greenframe.png) 5 5 5 5 repeat repeat;
       border-image-outset: rem(4px);
       padding: 15px;
