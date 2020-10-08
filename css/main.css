@@ -960,3 +960,63 @@ input::placeholder {
 .content__main {
   min-height: 100px;
 }
+
+.author {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  color: #6381C0;
+  background: #FFF;
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  .author {
+    padding: 0;
+  }
+}
+.author__img {
+  height: 90%;
+}
+.author__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 576px) {
+  .author__title {
+    flex-direction: column;
+  }
+}
+.author__title-first {
+  margin-bottom: 10px;
+}
+.author__title-frame {
+  flex-direction: column;
+  margin-left: 10px;
+}
+.author__title-list {
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.author__contact {
+  display: flex;
+  flex-direction: row;
+}
+.author__contact-list {
+  flex-direction: column;
+}
+.author__description-text {
+  font-family: "Roboto Condensed";
+  text-indent: 20px;
+  text-align: justify;
+  line-height: 1.5em;
+  color: #000;
+}
+@media screen and (max-width: 576px) {
+  .author__description-text {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

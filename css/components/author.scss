@@ -1,0 +1,74 @@
+.author {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  color: $blue;
+  background: $white;
+  padding: 10px;
+
+  @include landphones {
+    padding: 0;
+  }
+
+  &__img {
+    height: 90%;
+    
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    @include landphones {
+      flex-direction: column;
+    }
+
+    &-first {
+      margin-bottom: 10px;
+      
+    }
+    
+    &-frame {
+      flex-direction: column;
+      margin-left: 10px;
+    }
+
+    &-list {
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: row;
+
+    &-list {
+      flex-direction: column;
+      
+    }
+
+  }
+
+  &__description {
+    
+    &-text {
+      font-family: $strong;
+      text-indent: 20px;
+      text-align: justify;
+      line-height: 1.5em;
+      color: $black;
+
+      @include landphones {
+        font-size: 16px;
+        padding: 10px;
+      }
+
+
+    }
+  }
+}
