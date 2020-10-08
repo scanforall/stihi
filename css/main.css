@@ -964,7 +964,6 @@ input::placeholder {
 .author {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
   color: #6381C0;
   background: #FFF;
   padding: 10px;
@@ -973,6 +972,9 @@ input::placeholder {
   .author {
     padding: 0;
   }
+}
+.author__container {
+  margin-top: 60px;
 }
 .author__img {
   height: 90%;
@@ -1019,4 +1021,48 @@ input::placeholder {
     font-size: 16px;
     padding: 10px;
   }
+}
+
+.method {
+  color: #6381C0;
+}
+.method__container {
+  margin-top: 60px;
+}
+.method__title {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.method__title-img {
+  margin-bottom: 10px;
+}
+.method__title-text {
+  max-width: 68%;
+  text-align: center;
+}
+.method__before {
+  margin-bottom: 20px;
+}
+.method__before-list {
+  display: flex;
+  flex-direction: column;
+}
+.method__before-item {
+  margin-bottom: 20px;
+}
+.method__before-item:last-child {
+  margin-bottom: 0;
+}
+.method__before-text {
+  margin-left: 10px;
+}
+.method__atention {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.method__way-list {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,59 @@
+.method {
+  color: $blue;
+  &__container {
+    margin-top: 60px;
+  }
+
+  &__title {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+
+    &-img {
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      max-width: 68%;
+      text-align: center;
+    }
+  }
+
+  &__before {
+
+    margin-bottom: 20px;
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-item {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-text {
+      margin-left: 10px;
+    }
+  }
+
+  &__atention {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__way {
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}
