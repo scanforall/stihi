@@ -2,21 +2,24 @@
   color: $blue;
   &__container {
     margin-top: 60px;
+    margin-bottom: 10px;
   }
 
   &__title {
     flex-direction: column;
     display: flex;
     align-items: center;
-
+    margin-bottom: 20px;
 
     &-img {
       margin-bottom: 10px;
+      border-radius: 50px;
     }
 
     &-text {
       max-width: 68%;
       text-align: center;
+      color: $pink;
     }
   }
 
@@ -37,6 +40,14 @@
       }
     }
 
+    &-img {
+      border-radius: 50px;
+
+      &-frame {
+        min-width: 30vw;
+      }
+    }
+
     &-text {
       margin-left: 10px;
     }
@@ -50,10 +61,46 @@
 
   &__way {
 
+    margin-bottom: 30px;
+
     &-list {
       display: flex;
       flex-direction: column;
     }
+
+    &-desc {
+
+      @include phones {
+        font-size: 14px;
+        font-family: $strong;
+      }
+
+    }
+
+    &-img {
+
+      border-radius: 40px;
+      &-frame {
+        min-width: 30vw;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__wish {
+    text-align: center;
+
+    &-text {
+      margin-bottom: 10px;
+      color: $pink;
+    }
+
+    &-img {
+      margin: 0 auto;
+      width: 70vw;
+      border-radius: 50px;
+    }
+
   }
 
 }
