@@ -1,0 +1,53 @@
+.content {
+
+  &__title {
+    background: $blue;
+    border-style: solid;
+    border-width: rem(5px) rem(0px) rem(5px) rem(0px);
+    border-image: url(../img/decor/blueframe.png) 5 0 5 0 repeat repeat;
+    border-image-outset: rem(4px);
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+  }
+
+  &__container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 30px;
+  }
+
+  &__text {
+    position: relative;
+    font-size: rem(22px);
+    text-align: center;
+    margin: 0 rem(10px) 0 rem(10px);
+    
+    @include desktops {
+      font-size: rem(20px);
+    }
+
+    @include largetablets {
+      font-size: rem(18px);
+    }
+
+    @include tablets {
+      font-size: rem(16px);
+    }    
+    @include landphones {
+      font-size: rem(14px);
+    }    
+
+    &-decor {
+      height: rem(24px);
+
+    }
+  }
+
+  &__main {
+    min-height: 100px;
+  }
+
+}

@@ -910,3 +910,53 @@ input::placeholder {
 .social__item:last-child {
   margin-right: 0;
 }
+
+.content__title {
+  background: #6381C0;
+  border-style: solid;
+  border-width: 0.2777777778rem 0rem 0.2777777778rem 0rem;
+  border-image: url(../img/decor/blueframe.png) 5 0 5 0 repeat repeat;
+  border-image-outset: 0.2222222222rem;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.content__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 30px;
+}
+.content__text {
+  position: relative;
+  font-size: 1.2222222222rem;
+  text-align: center;
+  margin: 0 0.5555555556rem 0 0.5555555556rem;
+}
+@media screen and (max-width: 1200px) {
+  .content__text {
+    font-size: 1.1111111111rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content__text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content__text {
+    font-size: 0.8888888889rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .content__text {
+    font-size: 0.7777777778rem;
+  }
+}
+.content__text-decor {
+  height: 1.3333333333rem;
+}
+.content__main {
+  min-height: 100px;
+}
