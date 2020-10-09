@@ -1201,6 +1201,11 @@ input {
 .catalog__controls__search {
   max-width: 300px;
 }
+@media screen and (max-width: 480px) {
+  .catalog__controls__search__phones {
+    display: none;
+  }
+}
 .catalog__controls__search__input {
   background: #FFF;
   border: 3px solid #C681B7;
@@ -1223,6 +1228,11 @@ input {
 .catalog__controls__breadcrambs {
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .catalog__controls__breadcrambs__phones {
+    display: none;
+  }
 }
 .catalog__controls__breadcrambs__item {
   display: inline-block;

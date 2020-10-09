@@ -12,6 +12,12 @@
     &__search {
       max-width: 300px;
 
+      &__phones {
+        @include phones {
+          display: none;
+        }
+      }
+
       &__input {
         background:$white;
         border: 3px solid $pink;
@@ -43,6 +49,12 @@
     &__breadcrambs {
       display: flex;
       justify-content: center;
+
+      &__phones {
+        @include phones {
+          display: none;
+        }
+      }
 
       &__item {
         display: inline-block;
