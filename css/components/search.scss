@@ -12,6 +12,11 @@
     font-family: $funny;
     font-size: rem(20px);
     color: $blue;
+
+    &::placeholder {
+      color: $blue;
+      margin-left: rem(10px);
+    }
     
     @include largetablets {
       max-width: rem(170px);

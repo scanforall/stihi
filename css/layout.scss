@@ -83,8 +83,8 @@ img {
 input {
     outline: 0;
 
-    &::placeholder {
-        color: $blue;
-        margin-left: rem(10px);
-    }
+    // &::placeholder {
+    //     color: $blue;
+    //     margin-left: rem(10px);
+    // }
 }

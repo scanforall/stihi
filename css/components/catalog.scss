@@ -1,0 +1,163 @@
+.catalog {
+  margin-top: 50px;
+
+  &__controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
+
+    &__search {
+      max-width: 300px;
+
+      &__input {
+        background:$white;
+        border: 3px solid $pink;
+        box-sizing: border-box;
+        border-radius: 20px;
+        color:$pink;
+        
+
+        &::placeholder {
+          color: $pink;
+          margin-left: rem(10px);
+        }
+      }
+      
+      
+    }
+    &__filter {
+
+      &__select {
+        background:$white;
+        border: 3px solid $pink;
+        box-sizing: border-box;
+        border-radius: 20px;
+        color:$pink;
+        outline: none;
+      }
+    }
+
+    &__breadcrambs {
+      display: flex;
+      justify-content: center;
+
+      &__item {
+        display: inline-block;
+        background:$white;
+        color: $pink;
+        border-radius: 50%;
+        border: 3px solid $pink;
+        text-align: center;
+        min-width: 30px;
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &__active {
+          color: $white;
+          background: $pink;
+        }
+
+        &__button {
+          color: $white;
+          background: $pink;
+        }
+      }
+      
+    }
+
+    &__switch {
+      display: flex;
+      border: 3px solid $pink;
+      border-radius: 30px;
+
+      &__left {
+        background: $pink;
+        color: $white;
+        border-radius: 30px 0px 0px 30px;
+        padding:0 10px ;
+      }
+
+      &__right {
+        background: $white;
+        color: $pink;
+        border-radius: 0px 30px 30px 0px;
+        padding:0 10px ;
+      }
+    }
+  }
+
+  &__block {
+    display: flex;
+    align-items: flex-start;
+
+    @include landphones {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    
+  }
+  
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  &__menu {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $white;
+    color: $pink;
+    padding: 8px;
+    border-radius: 12px;
+    border: 3px solid $pink;
+    min-width: 260px;
+
+    &__title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    &__list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__item {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__item {
+    margin: 10px;
+    
+  }
+
+  &__poem {
+    display: flex;
+    width: 168px;
+
+    @include phones {
+      width: 270px;
+    }
+  }
+
+  &__img {
+    object-fit: cover;
+    border-style: solid;
+    border-image: url(../../img/decor/whiteframe.png) 5 5 5 5 repeat repeat;  
+  }
+
+}
