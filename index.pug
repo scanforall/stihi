@@ -3,25 +3,17 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css')
     link(rel="stylesheet" href="./css/main.css")
     title Stihi
   body
-    //- проверка подключений
-    //- .roboto Roboto Condensed
-    //- .dsgoose DSGOOSE
-    //- .tolstyakheavy tolstyakheavy
-    //- .pink
-    //- .green
-    //- .blue
-    //- .black
-    //- .white
     .wrapper
       header.header
         .menu
           .container.header__container
             .hamburger
              .hamburger-icon
-            script(src="./js/hamburger.js")
+            //- script(src="./js/hamburger.js")
             ul.menu-hidden__list
               li.menu-hidden__item
                 a.menu-hidden__link(href="./index.html") Главная
@@ -48,7 +40,7 @@ html(lang="en")
               input.search__input(type="search" placeholder="Поиск по сайту...")
       section.carousel
         .container.carousel__container
-          ul.carousel__list
+          ul.carousel__list.carousel__slider
             li.carousel__item
               .carousel__block
                 img.carousel__img(src="./img/carousel/rabbit.png", alt="")
@@ -127,7 +119,7 @@ html(lang="en")
                         img.slide__bottom-elem-img.slide__img(src='./img/slide/slide-devices.png' alt='')
               a.slider__control.slider__control_prev(href='#' role='button')
               a.slider__control.slider__control_next(href='#' role='button')
-              script(src="./js/slider.js")
+              //- script(src="./js/slider.js")
       section.preview
         .section__title
           .container.section__container
@@ -149,7 +141,7 @@ html(lang="en")
                 img.poem__img(src="./img/content/preview/poem__small-4.png", alt="")
         .preview__controls
           .container.preview__container
-            a.preview__link(href="#")
+            a.preview__link(href="./catalog.html")
               .preview__link-img-container
                 img.preview__link-img(src="./img/decor/catalog.png", alt="")
               .preview__link-text Перейти в каталог
@@ -215,3 +207,8 @@ html(lang="en")
               |Все права на графические, текстовые, музыкальные и иные материалы, представленные на сайте, принадлежат их законным владельцам.
               br
               |Запрещено любое коммерческое использование текстовых, графических и аудио материалов размещённых на сайте!
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src="./js/hamburger.js")
+    script(src="./js/slider.js")
+    script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
+    script(src="./js/carousel.js")

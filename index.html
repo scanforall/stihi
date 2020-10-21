@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/>
     <link rel="stylesheet" href="./css/main.css"/>
     <title>Stihi</title>
   </head>
@@ -14,7 +15,6 @@
             <div class="hamburger">
               <div class="hamburger-icon"></div>
             </div>
-            <script src="./js/hamburger.js"></script>
             <ul class="menu-hidden__list">
               <li class="menu-hidden__item"><a class="menu-hidden__link" href="./index.html">Главная</a></li>
               <li class="menu-hidden__item"><a class="menu-hidden__link" href="./catalog.html">Каталог</a></li>
@@ -37,7 +37,7 @@
       </header>
       <section class="carousel">
         <div class="container carousel__container">
-          <ul class="carousel__list">
+          <ul class="carousel__list carousel__slider">
             <li class="carousel__item">
               <div class="carousel__block"><img class="carousel__img" src="./img/carousel/rabbit.png" alt=""/></div>
             </li>
@@ -123,7 +123,6 @@
                   </div>
                 </div>
               </div><a class="slider__control slider__control_prev" href="#" role="button"></a><a class="slider__control slider__control_next" href="#" role="button"></a>
-              <script src="./js/slider.js"></script>
             </div>
           </div>
         </div>
@@ -146,7 +145,7 @@
           </div>
         </div>
         <div class="preview__controls">
-          <div class="container preview__container"><a class="preview__link" href="#">
+          <div class="container preview__container"><a class="preview__link" href="./catalog.html">
               <div class="preview__link-img-container"><img class="preview__link-img" src="./img/decor/catalog.png" alt=""/></div>
               <div class="preview__link-text">Перейти в каталог</div></a>
             <div class="search">
@@ -200,5 +199,10 @@
         </div>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/carousel.js"></script>
   </body>
 </html>
