@@ -5,7 +5,27 @@
   @include largetablets {
     min-height: 350px;
   }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
   
+  &__decor-left {
+
+    @include tablets {
+          display: none;
+    }
+  }
+  
+  &__decor-right {
+
+    @include tablets {
+          display: none;
+    }
+  }
 
   // &__decor {
 
@@ -32,13 +52,15 @@
   //   }
   // }
 
-  &__container {
+  &__decor-block {
     margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
+
 
   &__title {
     color: $green;
@@ -53,27 +75,27 @@
     color: $blue;
     font-size: 20px;
 
-    &:before {
-      content: url(../img/decor/description-left.png);
-      position: absolute;
-      right: 90%;
-      bottom: 11%;
+    // &:before {
+    //   content: url(../img/decor/description-left.png);
+    //   position: absolute;
+    //   right: 90%;
+    //   bottom: 11%;
 
-      @include tablets {
-        display: none;
-      }
-    }
+    //   @include tablets {
+    //     display: none;
+    //   }
+    // }
 
-    &:after {
-      content: url(../img/decor/description-right.png);
-      position: absolute;
-      left: 90%;
-      bottom: 16%;
+    // &:after {
+    //   content: url(../img/decor/description-right.png);
+    //   position: absolute;
+    //   left: 90%;
+    //   bottom: 16%;
 
-      @include tablets {
-        display: none;
-      }
-    }
+    //   @include tablets {
+    //     display: none;
+    //   }
+    // }
 
     @include largetablets {
       font-size: 16px;

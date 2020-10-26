@@ -4,6 +4,7 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel='stylesheet' href='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css')
+    
     link(rel="stylesheet" href="./css/main.css")
     title Stihi
   body
@@ -106,7 +107,7 @@ html(lang="en")
                           | серии коротких стишков для детских книжек-раскрасок
                       .slide__bottom-elem
                         .slide__bottom-elem-text.slide--font
-                          | Все стихи отлично иллюстрированы и содержат мультимедиа
+                          | Все стихи дополнены цветной, авторской, тематической иллюстрацией и аудиозаписью, содержат мультимедиа
                           | раскраски с играми. Отличное дополнение печатного издания!
                         img.slide__bottom-elem-img.slide__img(src='./img/slide/slide-tablet.png' alt='')
                   .slider__item
@@ -165,21 +166,26 @@ html(lang="en")
       section.description
         .description__decor
           .container.description__container
-            .description__title Детские стихи
-            .description__text
-              | Подборки стишков для Нового года, стихи про 8 марта и по темам.
-              br
-              hr
-              | Короткие стихи для детей от 2 до 7 лет с картинками.
-              br
-              hr
-              | Простаяи удобная методичка для воспитателей, преподавателей и родителей.
-              br
-              hr
-              | Бесплатно онлайн РАСКРАСКИ, игра-головоломка "НАЙДИ 5 ОТЛИЧИЙ".
-              br
-              hr
-              | Отличный ресурс для обучения и развития ваших детей!
+            .description__decor-left
+              img.description__img(src="./img/decor/description-left.png", alt="")
+            .description__decor-block
+              .description__title Детские стихи
+              .description__text
+                | Подборки стишков про Новый год и зиму.
+                br
+                hr
+                | Короткие стихи для детей от 2 до 8 лет с картинками и аудиозаписью.
+                br
+                hr
+                | Простая и удобная методичка для воспитателей, преподавателей и родителей.
+                br
+                hr
+                | Бесплатно онлайн РАСКРАСКИ, игра-головоломка "НАЙДИ ОТЛИЧИЯ".
+                br
+                hr
+                | Отличный ресурс для обучения и развития ваших детей!
+            .description__decor-right
+              img.description__img(src="./img/decor/description-right.png", alt="")
       footer.footer
         .container
           .footer__block
@@ -227,3 +233,4 @@ html(lang="en")
     script(src="./js/slider.js")
     script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
     script(src="./js/carousel.js")
+   
