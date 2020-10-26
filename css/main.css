@@ -817,7 +817,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .description__decor-left {
@@ -848,10 +848,12 @@ input {
 .description__text {
   color: #6381C0;
   font-size: 20px;
+  white-space: nowrap;
 }
 @media screen and (max-width: 992px) {
   .description__text {
     font-size: 16px;
+    white-space: normal;
   }
 }
 @media screen and (max-width: 768px) {

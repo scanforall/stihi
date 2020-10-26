@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   &__decor-left {
@@ -27,31 +27,6 @@
     }
   }
 
-  // &__decor {
-
-  //   &:before {
-  //     content: url(../img/decor/description-left.png);
-  //     position: absolute;
-  //     right: 90%;
-  //     bottom: -5%;
-
-  //     @include tablets {
-  //       display: none;
-  //     }
-  //   }
-
-  //   &:after {
-  //     content: url(../img/decor/description-right.png);
-  //     position: absolute;
-  //     left: 90%;
-  //     bottom: 5%;
-
-  //     @include tablets {
-  //       display: none;
-  //     }
-  //   }
-  // }
-
   &__decor-block {
     margin-top: 60px;
     display: flex;
@@ -59,8 +34,6 @@
     justify-content: center;
     flex-direction: column;
   }
-
-
 
   &__title {
     color: $green;
@@ -74,31 +47,11 @@
   &__text {
     color: $blue;
     font-size: 20px;
-
-    // &:before {
-    //   content: url(../img/decor/description-left.png);
-    //   position: absolute;
-    //   right: 90%;
-    //   bottom: 11%;
-
-    //   @include tablets {
-    //     display: none;
-    //   }
-    // }
-
-    // &:after {
-    //   content: url(../img/decor/description-right.png);
-    //   position: absolute;
-    //   left: 90%;
-    //   bottom: 16%;
-
-    //   @include tablets {
-    //     display: none;
-    //   }
-    // }
+    white-space: nowrap;
 
     @include largetablets {
       font-size: 16px;
+      white-space: normal
     }
 
     @include tablets {
