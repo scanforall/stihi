@@ -3,7 +3,9 @@ const slider = $('.carousel__slider').bxSlider({
   autoDirection: 'next',
   minSlides: 8,
   maxSlides: 8,
-  slideWidth: 80,
+  slideWidth: 3000,
   ticker: true,
-  speed: 50000
+  speed: 50000,
+  slideMargin: 0,
+  adaptiveHeight: true,
 });

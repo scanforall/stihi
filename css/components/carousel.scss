@@ -33,27 +33,27 @@
     
  
 
-  &__item {
-    margin-right: rem(30px);
+  // &__item {
+  //   margin-right: rem(30px);
 
-    &:last-child {
-      margin-left: 0;
-    }
-  }
+  //   &:last-child {
+  //     margin-left: 0;
+  //   }
+  // }
 
-  &__block {
-    max-height: rem(100px);
-    max-width: rem(100px);
-    overflow: hidden;
+  // &__block {
+  //   max-height: rem(300px);
+  //   max-width: rem(1000px);
+  //   overflow: hidden;
     
-  }
+  // }
   
-  &__img {
+  // &__img {
 
-    width: 100%;
-    height: 100%;
+  //   width: 100%;
+  //   height: 100%;
    
-  }
+  // }
 
 }
 .bx-wrapper {
