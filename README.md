@@ -12,3 +12,7 @@ rem($0)
 
 -git
 git push -f
+
+
+-wp
+<?php echo get_template_directory_uri (); ?>/
