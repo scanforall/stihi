@@ -1,4 +1,12 @@
+.puzzle {
+  display: flex;
+  flex-direction: column;
+}
 
+/* .puzzle__single {
+  display: flex;
+  flex-direction: column;
+} */
 
 .ref_imgWrap {
   max-width: 200px;
