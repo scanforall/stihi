@@ -1022,7 +1022,7 @@ input {
   border-image-outset: 0.2222222222rem;
   width: 100%;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
 }
 .content__container {
   display: flex;
@@ -1575,12 +1575,12 @@ input {
   width: 100%;
   float: left;
   position: relative;
-  overflow: hidden;
+  height: 60vh;
 }
 
 .puzzleX999_imgWrap {
   max-width: 560px;
-  padding: 5%;
+  padding: 15%;
   padding-top: 0;
   margin: 0 auto;
   box-sizing: border-box;
