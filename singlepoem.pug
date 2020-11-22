@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="./css/main.css")
+    title Stihi
+  body
+    .wrapper
+      header.header
+        .menu
+          .container.header__container
+            .hamburger
+             .hamburger-icon
+            
+            ul.menu-hidden__list
+              li.menu-hidden__item
+                a.menu-hidden__link(href="./index.html") Главная
+              li.menu-hidden__item
+                a.menu-hidden__link(href="./catalog.html") Каталог
+              li.menu-hidden__item
+                a.menu-hidden__link(href="./method.html") Методичка
+              li.menu-hidden__item
+                a.menu-hidden__link(href="./author.html") От автора
+              li.menu-hidden__item
+                a.menu-hidden__link(href="./contacts.html") Контакты
+            ul.menu__list
+              li.menu__item
+                a.menu__link(href="./index.html") Главная
+              li.menu__item
+                a.menu__link(href="./catalog.html") Каталог
+              li.menu__item
+                a.menu__link(href="./method.html") Методичка
+              li.menu__item
+                a.menu__link(href="./author.html") От автора
+              li.menu__item
+                a.menu__link(href="./contacts.html") Контакты
+            .search
+              input.search__input(type="search" placeholder="Поиск по сайту...")
+      section.carousel
+        .container.carousel__container
+          ul.carousel__list.carousel__slider
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/1.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/2.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/3.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/4.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/5.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/6.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/7.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/8.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/9.png", alt="")
+            li.carousel__item
+              .carousel__block
+                img.carousel__img(src="./img/carousel/10.png", alt="")
+      section.content       
+        .content__title
+          .container.content__container
+            img.content__text-decor(src="./img/decor/greenpink-bigsun-decor.png", alt="")
+            .content__text Название стишка
+            img.content__text-decor(src="./img/decor/greenpink-bigsun-decor.png", alt="")
+        .content__main
+          .container
+            .content__block.poem__container
+              .poem.poem__single
+                img.poem__full-img(src="./img/poem/1.png", alt="")
+                audio.audio(controls='')
+                  source(src='/audio/1.mp3' type='audio/mpeg')
+              .coloring.paint__single.block__hidden
+              .puzzle.puzzle__single.block__hidden
+                img.puzzle__full-img(src="./img/poem/3.jpg", alt="")
+              
+              ul.poem__controls
+                li.poem__controls-item
+                  a.poem__controls-link(href="#")
+                    .poem__controls-text Перейти в каталог
+                    img.poem__controls-img(src="./img/decor/catalog.png", alt="")
+                li.poem__controls-item.controls__listen
+                  a.poem__controls-link(href="#")
+                    img.poem__controls-img(src="./img/poem/play button.png", alt="")
+                    .poem__controls-text Прослушать
+                li.poem__controls-item.controls__paint
+                  a.poem__controls-link(href="#")
+                    img.poem__controls-img(src="./img/poem/paint.png", alt="")
+                    .poem__controls-text Раскраска
+                li.poem__contros-item.controls__puzzle
+                  a.poem__controls-link(href="#")
+                    img.poem__controls-img(src="./img/poem/education.png", alt="")
+                    .poem__controls-text Найди отличия
+                
+             
+
+
+        
+      footer.footer
+        .container
+          .footer__block
+            img.footer__logo(src="./img/logo/logo-footer.png", alt="")            
+            .footer-menu
+              ul.footer-menu__list
+                li.footer-menu__item
+                  a.footer-menu__link(href="./index.html") Главная
+                li.footer-menu__item
+                  a.footer-menu__link(href="./catalog.html") Каталог
+                li.footer-menu__item
+                  a.footer-menu__link(href="./method.html") Методичка
+                li.footer-menu__item
+                  a.footer-menu__link(href="./author.html") От автора
+                li.footer-menu__item
+                  a.footer-menu__link(href="./contacts.html") Контакты
+            img.footer__decor(src="./img/decor/footer-middle-bg.png", alt="")
+            .share
+              .share__text Поделиться в соц сетях:
+              .socials
+                ul.sosial__list
+                  li.social__item
+                    a.socials__link(href="#")
+                      img.socials__pic(src="./img/socials/odnoklassniki.png", alt="")
+                  li.social__item
+                    a.socials__link(href="#")
+                      img.socials__pic(src="./img/socials/facebook.png", alt="")
+                  li.social__item
+                    a.socials__link(href="#")
+                      img.socials__pic(src="./img/socials/vk.png", alt="")
+                  li.social__item
+                    a.socials__link(href="#")
+                      img.socials__pic(src="./img/socials/instagram.png", alt="")
+                  li.social__item
+                    a.socials__link(href="#")
+                      img.socials__pic(src="./img/socials/tik-tok.png", alt="")
+              .copyright__desc © 2020. Все права защищены.
+          .copyright
+            .copyright__text
+              |Все права на графические, текстовые, музыкальные и иные материалы, представленные на сайте, принадлежат их законным владельцам.
+              br
+              |Запрещено любое коммерческое использование текстовых, графических и аудио материалов размещённых на сайте!
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src="./js/hamburger.js")
+    script(src="./js/controls.js")
+    script(src="./js/paint.js")
+    script(src="./js/paint-controls.js")
+    script(src="./js/slider.js")
+    script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
+    script(src="./js/carousel.js")          
