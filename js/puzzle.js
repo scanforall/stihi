@@ -58,7 +58,7 @@ $(document).ready(function(){
                 hours = Math.floor((timeTaken/(1000*60*60))%60),
                 kompletionTime_str = '';
                 console.log(puzzle_endTime);
-                kompletionTime_str = 'Wow! You completed the puzzle in ' + setHours_str(hours) +  setMinutes_str(minutes) + seconds + ' seconds!!!'
+                kompletionTime_str = 'Верно! Ты молодец!!!'
                 console.log(kompletionTime_str);
                 setTimeout(function(){
                     alert(kompletionTime_str)
