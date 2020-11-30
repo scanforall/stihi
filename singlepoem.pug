@@ -4,6 +4,7 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet" href="./css/main.css")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
     title Stihi
   body
     .wrapper
@@ -84,8 +85,20 @@ html(lang="en")
                 audio.audio(controls='')
                   source(src='/audio/1.mp3' type='audio/mpeg')
               .coloring.paint__single.block__hidden
-              .puzzle.puzzle__single.block__hidden
-                img.puzzle__full-img(src="./img/poem/3.jpg", alt="")
+              .different.different__single.block__hidden
+                .white-container
+                  .wrap_diff
+                    #item_a.item_a
+                      img(src='/img/dif/item a.jpg', alt='')
+                    .a_b_border
+                    .item_b
+                      img(src='/img/dif/item b.jpg', alt='')
+                  .remove.button.button_white &Ocy;&chcy;&icy;&scy;&tcy;&icy;&tcy;&softcy; &mcy;&acy;&rcy;&kcy;&iecy;&rcy;&ycy;
+                  .answer
+                    | &Ocy;&tcy;&vcy;&iecy;&tcy;:
+                    a(data-fancybox='gallery2', href='/img/dif/answer.jpg')
+                      img(src='/img/dif/answer.jpg', alt='')
+                  style.
               
               ul.poem__controls
                 li.poem__controls-item
@@ -100,7 +113,7 @@ html(lang="en")
                   a.poem__controls-link(href="#")
                     img.poem__controls-img(src="./img/poem/paint.png", alt="")
                     .poem__controls-text Раскраска
-                li.poem__contros-item.controls__puzzle
+                li.poem__contros-item.controls__different
                   a.poem__controls-link(href="#")
                     img.poem__controls-img(src="./img/poem/education.png", alt="")
                     .poem__controls-text Найди отличия
@@ -152,10 +165,13 @@ html(lang="en")
               br
               |Запрещено любое коммерческое использование текстовых, графических и аудио материалов размещённых на сайте!
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js')
+    script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
+    script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
     script(src="./js/hamburger.js")
     script(src="./js/controls.js")
     script(src="./js/paint.js")
     script(src="./js/paint-controls.js")
     script(src="./js/slider.js")
-    script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
-    script(src="./js/carousel.js")          
+    script(src="./js/carousel.js")
+    script(src="./js/test.js")         

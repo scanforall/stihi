@@ -1,9 +1,9 @@
-.puzzle {
+.different {
   display: flex;
   flex-direction: column;
 }
 
-/* .puzzle__single {
+/* .different__single {
   display: flex;
   flex-direction: column;
 } */
@@ -28,14 +28,14 @@
   float: left;
 }
 
-.restartPuzzleWrap {
+.restartdifferentWrap {
   width: 100%;
   float: left;
   text-align: center;
   padding: 1em 0;
 }
 
-.restart_puzzleX999 {
+.restart_differentX999 {
   padding: 1.6em;
   display: inline-block;
   background: orange;
@@ -49,14 +49,14 @@
    box-shadow:         1px 1px 6px 0px rgba(50, 50, 50, 0.35);
 }
 
-.snappuzzle-piece {
+.snapdifferent-piece {
  -webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
    -moz-box-shadow:    1px 1px 6px 0px rgba(50, 50, 50, 0.35);
    box-shadow:         1px 1px 6px 0px rgba(50, 50, 50, 0.35);  
 }
-/* required snapPuzzle styles */
+/* required snapdifferent styles */
 
-.puzzleX999_paddedWrap {
+.differentX999_paddedWrap {
   width: 100%;
   float: left;
   position: relative;
@@ -64,7 +64,7 @@
   
 }
 
-.puzzleX999_imgWrap {
+.differentX999_imgWrap {
   max-width: 560px;
   padding: 15%;
   padding-top: 0;
@@ -73,40 +73,40 @@
   position: relative;
 }
 
-.puzzleX999_imgWrap img {
+.differentX999_imgWrap img {
   max-width: 100%;
   float: left;
   height: auto;
 }
 
-.puzzleX999_relWrap {
+.differentX999_relWrap {
   position: relative;
   display: block;
   max-width: 500px;
   float: left;
 }
 
-#puzzleX999_Main {
+#differentX999_Main {
   width: 100%;
   float: left;
 }
 
-.snappuzzle-wrap {
+.snapdifferent-wrap {
   position: relative;
   display: block;
 }
-/*snappuzzle-pile { position: relative; }*/
+/*snapdifferent-pile { position: relative; }*/
 
-.snappuzzle-piece {
+.snapdifferent-piece {
   cursor: move;
 }
 
-.snappuzzle-slot {
+.snapdifferent-slot {
   position: absolute;
   background: #fff;
   opacity: .8;
 }
 
-.snappuzzle-slot-hover {
+.snapdifferent-slot-hover {
   background: #eee;
 }
